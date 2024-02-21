@@ -1,0 +1,10 @@
+CREATE TABLE `documents` (
+  `id_country` int(11) NOT NULL,
+  `table_name` varchar(255) NOT NULL,
+  `col_name` varchar(255) NOT NULL,
+  `inc` int(11) NOT NULL,
+  `title` text NOT NULL,
+  `year_publication` int(11) NOT NULL,
+  `eletronic_source` text NOT NULL,
+  `voluntary_comments` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

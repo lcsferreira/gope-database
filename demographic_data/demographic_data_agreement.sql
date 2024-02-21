@@ -1,0 +1,15 @@
+CREATE TABLE `demographic_data_agreement` (
+  `id_country` int(11) NOT NULL,
+  `world_region` tinyint(4) DEFAULT NULL,
+  `income_classification` tinyint(4) DEFAULT NULL,
+  `total_population` tinyint(4) DEFAULT NULL,
+  `literacy_youth_total` tinyint(4) DEFAULT NULL,
+  `gov_expenditure_education` tinyint(4) DEFAULT NULL,
+  `entrance_age_pe` tinyint(4) DEFAULT NULL,
+  `entrance_age_se` tinyint(4) DEFAULT NULL,
+  `duration_pe` tinyint(4) DEFAULT NULL,
+  `duration_se` tinyint(4) DEFAULT NULL,
+  `duration_ce` tinyint(4) DEFAULT NULL,
+  `school_age_pe` tinyint(4) DEFAULT NULL,
+  `school_age_se` tinyint(4) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

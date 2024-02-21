@@ -1,0 +1,15 @@
+CREATE TABLE `demographic_data_comments_contact` (
+  `id_country` int(11) NOT NULL,
+  `world_region` text DEFAULT NULL,
+  `income_classification` text DEFAULT NULL,
+  `total_population` text DEFAULT NULL,
+  `literacy_youth_total` text DEFAULT NULL,
+  `gov_expenditure_education` text DEFAULT NULL,
+  `entrance_age_pe` text DEFAULT NULL,
+  `entrance_age_se` text DEFAULT NULL,
+  `duration_pe` text DEFAULT NULL,
+  `duration_se` text DEFAULT NULL,
+  `duration_ce` text DEFAULT NULL,
+  `school_age_pe` text DEFAULT NULL,
+  `school_age_se` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
